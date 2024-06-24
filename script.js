@@ -38,7 +38,7 @@ console.log("Nombre de voyelles dans la phrase:", resultat.nbVoyelles);
 
 
 /*
-ALGORITHM analyserPhrase
+ALGORITHM analyserPhrase(phrase)
     VAR
         length := 0
         wordCount := 0
