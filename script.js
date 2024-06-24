@@ -34,3 +34,37 @@ console.log("Phrase:", phrase);
 console.log("Longueur de la phrase:", resultat.longueur);
 console.log("Nombre de mots dans la phrase:", resultat.nbMots);
 console.log("Nombre de voyelles dans la phrase:", resultat.nbVoyelles);
+
+
+
+/*
+ALGORITHM analyserPhrase
+    VAR
+        length := 0
+        wordCount := 0
+        vowelCount := 0
+        vowels := "aeiouAEIOU"
+        
+    BEGIN
+        FOR i := 0 TO length of phrase - 1 DO
+            BEGIN
+                character := phrase[i]
+                
+                length := length + 1
+                
+                IF character = ' ' THEN
+                    wordCount := wordCount + 1
+                END IF
+                
+                IF vowels contains character THEN
+                    vowelCount := vowelCount + 1
+                END IF
+            END
+            
+        wordCount := wordCount + 1
+        
+        RETURN { length, wordCount, vowelCount }
+    END
+
+
+*/
